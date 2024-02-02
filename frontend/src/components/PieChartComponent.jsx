@@ -46,8 +46,8 @@ const PieChartComponent = () => {
   const chartOptions = {
     layout: {
       padding: {
-        top: 2, // Adjust for desired top spacing
-        bottom: 0, // Adjust for desired bottom spacing
+        top: 2,
+        bottom: 0,
       },
     },
     plugins: {
@@ -60,7 +60,7 @@ const PieChartComponent = () => {
         },
       },
     },
-    responsive: true, // Allow responsiveness
+    responsive: true,
   };
 
   return (
